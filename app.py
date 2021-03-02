@@ -4,7 +4,7 @@ from Google import Create_Service
 class Sheet:
     def __init__(self, client_name):
         'client1.amocrm.com'
-        self.CLIENT_SECRET_FILE = f"{client_name}.json"
+        self.CLIENT_SECRET_FILE = ""
 
     def create_service(self):
         self.googleService = Create_Service(self.CLIENT_SECRET_FILE,'sheets','v4',['https://www.googleapis.com/auth/spreadsheets'])
