@@ -3,7 +3,6 @@ from Google import Create_Service
 
 class Sheet:
     def __init__(self, client_name):
-        'client1.amocrm.com'
         self.CLIENT_SECRET_FILE = ""
 
     def create_service(self):
