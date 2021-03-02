@@ -35,7 +35,7 @@ class Sheet:
         ).execute()  
 
 
-client_name = 'Client_secret'
+client_name = ''
 sheet = Sheet(client_name) # , api_service_name, api_version, scopes)
 sheet.create_service()
 sheet.create_document()
