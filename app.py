@@ -22,7 +22,7 @@ class Sheet:
         cell_range_insert = 'B2'
         values = (
             ('Col A', 'Col B', 'Col C', 'Col D'),
-            ('Jonas', 'Tomas', 'Alvina', 'Alma')
+            ('1column', '2column', '3column', '4column')
         )
         value_range_body = {
             'majorDimension': 'ROWS',
