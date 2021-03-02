@@ -6,7 +6,7 @@ class Sheet:
         self.CLIENT_SECRET_FILE = ""
 
     def create_service(self):
-        self.googleService = Create_Service(self.CLIENT_SECRET_FILE,'sheets','v4',['https://www.googleapis.com/auth/spreadsheets'])
+        self.googleService = Create_Service(self.CLIENT_SECRET_FILE,'sheets','v4',[''])
 
     def create_document(self):
         self.sheets_file1 = self.googleService.spreadsheets().create().execute()
